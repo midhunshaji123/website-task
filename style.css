@@ -1,0 +1,409 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Lobster", system-ui;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.netflix {
+    width: 75px;
+    height: 75px;
+}
+
+#logoo {
+    color: maroon;
+    font-family: "Protest Guerrilla", system-ui;
+    font-size: 2rem;
+
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ;
+    height: 150px;
+}
+
+#navlogo {
+    margin-left: 50px;
+    width: 120px;
+    height: 120px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-items {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+
+}
+
+.links {
+    text-decoration: none;
+    color: maroon;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.links:hover {
+    color: white;
+
+}
+
+#home1 {
+    width: 100%;
+    height: 100vh;
+}
+
+#img2 {
+    width: 100%;
+    height: 100vh;
+}
+
+#about {
+    width: 100%;
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    background-color: dimgray;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.secondhead {
+    /* border: solid; */
+    width: 95%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutcontent {
+    /* border: solid; */
+    width: 30%;
+    height: 100%;
+    line-height: 2.5;
+
+
+}
+
+#h1 {
+    margin-bottom: 25px;
+    line-height: 2;
+    float: right;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    font-size: 35px;
+
+}
+
+#contness {
+    float: right;
+    text-align: right;
+    font-size: 20px;
+
+}
+
+.aboutimage {
+    /* border: solid; */
+    width: 850px;
+    height: 100%;
+}
+
+#img3 {
+    width: 100%;
+    height: 100%;
+}
+
+#buttom {
+    text-decoration: none;
+    background-color: maroon;
+    color: black;
+    padding: 2px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: "Protest Guerrilla", system-ui;
+    border-color: black;
+    border: solid 3ox;
+    float: right;
+    margin-left: 200px;
+    margin-top: 10px;
+
+}
+
+
+#movies {
+    background-color: rgba(19, 17, 17, 0.86);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid ; */
+}
+
+.movieshead {
+    width: 85%;
+    height: 600px;
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gallery1 {
+    width: 31%;
+    height: 100%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgblock1 {
+    width: 100%;
+    height: 55%;
+    /* border: solid; */
+}
+
+.imgblock2 {
+    width: 100%;
+    height: 40%;
+    /* border: solid; */
+
+}
+
+#imgcolm1 {
+    width: 100%;
+    height: 100%;
+}
+
+.imgcolm2 {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery2 {
+    width: 31%;
+    height: 100%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gallery3 {
+    width: 31%;
+    height: 100%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#Mediacenter {
+    /* border: solid; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: azure;
+
+}
+
+.Documentary {
+    padding-top: 15px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Protest Guerrilla", system-ui;
+
+}
+
+.movies {
+    padding-top: 15px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    font-family: "Protest Guerrilla", system-ui;
+}
+
+.movieimg {
+    padding-top: 15px;
+    width: 100%;
+    height: 75%;
+    font-family: "Protest Guerrilla", system-ui;
+
+}
+
+.Series {
+    padding-top: 15px;
+    /* border: solid; */
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    font-family: "Protest Guerrilla", system-ui;
+
+}
+
+.Reality {
+    padding-top: 15px;
+    /* border: solid; */
+    width: 200px;
+    height: 150px;
+    font-family: "Protest Guerrilla", system-ui;
+    text-align: center;
+}
+
+.footer {
+    /* border: solid; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background-color: maroon;
+
+}
+
+.iconcollections {
+    margin-right: 50px;
+    /* border: solid; */
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#listul {
+    margin-left: 50px;
+    /* border: solid; */
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+
+.list2 {
+    list-style: none;
+}
+
+.linkf {
+    text-decoration: none;
+    color: black;
+}
+
+.linkf:hover {
+    color: white;
+}
+
+.icondiv {
+    display: flex;
+    /* border: solid; */
+    width: 90%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.iconss {
+    width: 50px;
+    height: 50px;
+    /* border: solid; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.iconss:hover {
+    background-image: linear-gradient(to bottom right, yellow, yellow, yellow);
+}
+
+.iconss:hover .name {
+    color: rgba(red, green, blue, alpha);
+    /* animation */
+    animation: rotate 3s;
+}
+
+
+.imgfooter {
+    width: 150px;
+    height: 150px;
+}
+
+#imgdiv2 {
+    /* border: solid; */
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    20% {
+        transform: rotate(-30deg);
+    }
+
+    40% {
+        transform: rotate(30deg);
+    }
+
+    60% {
+        transform: rotate(-30deg);
+    }
+
+    80% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+#clsss {
+    /* border: solid; */
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#head {
+    margin-top: 15px;
+    font-size: 70px;
+    font-family: "Protest Guerrilla", system-ui;
+}
